@@ -1,0 +1,29 @@
+---
+import "../styles/reset.css";
+import Hypersensitive from "../components/Hypersensitive.astro";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>HYPERSENSITIVE</title>
+    <meta name="description" content="It’s all going to be okay." />
+    <meta name="color-scheme" content="dark" />
+    <meta name="theme-color" content="#111111" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://hypersensitive.eva.town" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:site_name" content="Eva Decker" />
+    <meta property="og:image" content="/social.png" />
+    <meta
+      property="og:image:alt"
+      content="The event is too bright. The city is too uncomfortable. The brain is too humid. The light is too nervous."
+    />
+  </head>
+  <body>
+    <Hypersensitive />
+  </body>
+</html>
